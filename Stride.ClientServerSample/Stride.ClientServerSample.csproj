@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stride.Engine" PrivateAssets="contentfiles; analyzers" />
+    <PackageReference Include="Stride.Physics" PrivateAssets="contentfiles; analyzers" />
+    <PackageReference Include="Stride.Navigation" PrivateAssets="contentfiles; analyzers" />
+    <PackageReference Include="Stride.Particles" PrivateAssets="contentfiles; analyzers" />
+    <PackageReference Include="Stride.UI" PrivateAssets="contentfiles; analyzers" />
+    <PackageReference Include="Stride.Core" PrivateAssets="contentfiles; analyzers" />
+
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" PrivateAssets="contentfiles; analyzers" IncludeAssets="build" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+
+    <StrideVersion>4.1.0.1838</StrideVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageVersion Include="Stride" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.Engine" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.Physics" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.Navigation" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.Particles" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.UI" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.Core" Version="$(StrideVersion)" />
+    <PackageVersion Include="Stride.Core.Assets.CompilerApp" Version="$(StrideVersion)" />
+  </ItemGroup>
+</Project>

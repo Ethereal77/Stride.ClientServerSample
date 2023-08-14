@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Stride.ClientServerSample.Server": {
+      "commandName": "Project"
+    }
+  }
+}
